@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.outer-div {
+  width: 550px;
+  height: 853px;
+  border-radius: 8.95px 0px 0px 0px;
+  /* background-color: aquamarine; */
+}
+
+div {
+  /* width: 550px;
+  height: 70px; */
+  background: rgba(255, 255, 255, 1);
+}
+nav {
+  width: 550px;
+  height: 70px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 7.46px 2.98px 7.46px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+nav img {
+  width: 83px;
+  height: 25px;
+}
+
+.main-div {
+  background-color: gray;
+}
+
+.main-img {
+  width: 395.91px;
+  height: 232px;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+.heading {
+  height: 40px;
+  width: 347px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.para {
+  width: 320px;
+  height: 56px;
+  text-align: justify;
+  color: rgba(34, 34, 34, 1);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17.6px;
+  text-align: left;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.hero-img {
+  height: 235px;
+  width: 176px;
+}
+
+.card {
+  position: relative;
+}
+
+.rating {
+  opacity: 1;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.hero-num,
+.hero-coun {
+  opacity: 0.8;
+  font-size: 14px;
+  height: auto;
+  width: auto;
+}
+
+.hero-ellipse {
+  margin-bottom: 5px;
+  height: 2.5px;
+  width: 2.5px;
+  padding: 0 5px;
+}
+
+.hero-para {
+  margin: 0;
+  padding-top: 3px;
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(34, 34, 34, 1);
+}
+
+.hero-para2 {
+  margin: 0;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.outer-card-div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-left: 20px;
+}
+
+.last-card {
+  overflow: hidden;
+}
+
+.card-badges {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  opacity: 0.8;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 11px;
+}
